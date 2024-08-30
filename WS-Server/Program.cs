@@ -2,6 +2,9 @@ using System.Net;
 using System.Net.WebSockets;
 using System.Text;
 
+// Source
+// https://github.com/slthomason/StartupHakk/blob/main/92_Implementing_WebSocket_Client_Server_ASPNETCORE/WS-Server-Multiple.cs
+
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://localhost:6969");
 var app = builder.Build();
